@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify the login functionailty using step data",
+        "description": "",
+        "id": "automation-practice-application-smoke-testing-test;verify-the-login-functionailty-using-step-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12982066033,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launch the automation practice",
+            "match": {
+              "location": "Stepdefinition.user_Launch_the_automation_practice()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3762648777,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the signin button in the header",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_signin_button_in_the_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1029703168,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the \"arulselvi@gmail.com\" in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arulselvi@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_email_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620117972,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the \"arul123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arul123",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3195770488,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on the signing button",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_signing_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Verify the login functionailty using step data",
+        "description": "",
+        "id": "automation-practice-application-smoke-testing-test;verify-the-login-functionailty-using-step-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2873860366,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launch the automation practice",
+            "match": {
+              "location": "Stepdefinition.user_Launch_the_automation_practice()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2521568562,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the signin button in the header",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_signin_button_in_the_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1357176570,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the \"lakshmipriya.ramprakash@gmail.com\" in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lakshmipriya.ramprakash@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_email_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071198571,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the \"India@143\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India@143",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2811559870,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on the signing button",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_signing_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice application smoke testing Test",
+    "description": "",
+    "id": "automation-practice-application-smoke-testing-test",
+    "keyword": "Feature",
+    "uri": "AutomationPracticeSmoke.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  }
+]

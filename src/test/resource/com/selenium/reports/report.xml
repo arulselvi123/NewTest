@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.090293">
+<testcase classname="Automation Practice application smoke testing Test" name="Verify the login functionailty using step data" time="16.57728">
+<system-out><![CDATA[Given User Launch the automation practice...................................passed
+When user click on the signin button in the header..........................passed
+And user enter the "arulselvi@gmail.com" in the email field.................passed
+And user enter the "arul123" in the password field..........................passed
+And user click on the signing button........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice application smoke testing Test" name="Verify the login functionailty using step data 2" time="9.513013">
+<system-out><![CDATA[Given User Launch the automation practice...................................passed
+When user click on the signin button in the header..........................passed
+And user enter the "lakshmipriya.ramprakash@gmail.com" in the email field...passed
+And user enter the "India@143" in the password field........................passed
+And user click on the signing button........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
