@@ -242,16 +242,18 @@ public class Baseclass {
 		}
 	}
 
-	public static void takeScreenShotonthePage(String fileName) throws IOException {
+	public static File takeScreenShotonthePage(String fileName) throws Exception {
 		try {
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File temp = ts.getScreenshotAs(OutputType.FILE);
 			File des = new File(System.getProperty("user.dir")
 					+ "\\src\\test\\resource\\com\\selenium\\report\\screeshot\\" + fileName + ".png");
 			FileUtils.copyFile(temp, des);
+			return des;
 		} catch (WebDriverException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			throw new Exception();
 		}
 	}
 

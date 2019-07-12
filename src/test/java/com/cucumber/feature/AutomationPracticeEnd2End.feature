@@ -14,7 +14,7 @@ Scenario: verify the search function of the user
     Given select the type of dress
     And User mouseover to the summerdress
     Then check if the item is added to the cart
-@ignore
+@tc_3
 Scenario: Verify the dress page is displayed
     Given check the selected page is right
     When user click to proceed to checkout

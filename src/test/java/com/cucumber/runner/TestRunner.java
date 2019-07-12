@@ -28,7 +28,8 @@ import cucumber.api.junit.Cucumber;
 		"json:src\\test\\resource\\com\\selenium\\reports\\report.json",
 		"junit:src\\test\\resource\\com\\selenium\\reports\\report.xml"
 },
-	features = "src\\test\\java\\com\\cucumber\\feature\\",tags = {"@smoke"},
+	features = "src\\test\\java\\com\\cucumber\\feature\\",tags = {"@tc_1,@tc_2,@tc_3"},
+	
 	glue ="com.cucumber.stepdefinition", dryRun = false, strict = true, monochrome = true)
 public class TestRunner {
 
@@ -42,21 +43,12 @@ public class TestRunner {
 	 */
 	@BeforeClass
 	public static void setup() throws Exception {
-		driver = Baseclass.getBrowser("gridchrome");
+		driver = Baseclass.getBrowser("chrome");
 		
 	}
 	@AfterClass
 	public static void tearDown() {
 		driver.quit();
 		Reporter.loadXMLConfig(new File("C:\\Users\\arul\\eclipse-workspace\\CucumberSelenium\\src\\test\\resource\\com\\resource\\extent-config.xml"));
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }

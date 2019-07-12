@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.090293">
-<testcase classname="Automation Practice application smoke testing Test" name="Verify the login functionailty using step data" time="16.57728">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="47.274581">
+<testcase classname="Automation Practice application end to end testing Test" name="Verify the login functionailty using step data" time="35.360654">
 <system-out><![CDATA[Given User Launch the automation practice...................................passed
 When user click on the signin button in the header..........................passed
-And user enter the "arulselvi@gmail.com" in the email field.................passed
-And user enter the "arul123" in the password field..........................passed
+And user enter the "arulselvi@gmail.com" in the email feild.................passed
+And user enter the "arul123" in the password feild..........................passed
 And user click on the signing button........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Automation Practice application smoke testing Test" name="Verify the login functionailty using step data 2" time="9.513013">
-<system-out><![CDATA[Given User Launch the automation practice...................................passed
-When user click on the signin button in the header..........................passed
-And user enter the "lakshmipriya.ramprakash@gmail.com" in the email field...passed
-And user enter the "India@143" in the password field........................passed
-And user click on the signing button........................................passed
+<testcase classname="Automation Practice application end to end testing Test" name="verify the search function of the user" time="4.952996">
+<system-out><![CDATA[Given select the type of dress..............................................passed
+And User mouseover to the summerdress.......................................passed
+Then check if the item is added to the cart.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation Practice application end to end testing Test" name="Verify the dress page is displayed" time="6.960931">
+<system-out><![CDATA[Given check the selected page is right......................................passed
+When user click to proceed to checkout......................................passed
+Then verify the product is added to cart....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

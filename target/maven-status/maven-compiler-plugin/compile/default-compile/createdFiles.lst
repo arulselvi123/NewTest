@@ -1,0 +1,16 @@
+com\pom\Shippingpage.class
+com\helper\ConfigReader.class
+com\baseclass\Baseclass.class
+com\pom\Selectionpage.class
+com\pom\Homepage.class
+com\helper\PageObjectManager.class
+com\pom\Addresspage.class
+com\pom\Authenticationpage.class
+com\pom\OrderConfirmationpage.class
+com\pom\Loginpage.class
+com\pom\OrderSummarypage.class
+com\pom\Paymentpage.class
+com\pom\Checkoutpage.class
+com\pom\Dressespage.class
+com\pom\Summarypage.class
+com\helper\FileReaderManager.class

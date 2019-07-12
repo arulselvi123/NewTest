@@ -1,11 +1,13 @@
 package com.cucumber.stepdefinition;
 
+import java.io.File;
 import java.sql.Driver;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 import com.baseclass.Baseclass;
+import com.cucumber.listener.Reporter;
 import com.cucumber.runner.TestRunner;
 import com.helper.FileReaderManager;
 import com.helper.PageObjectManager;
@@ -86,6 +88,9 @@ public class Stepdefinition extends Baseclass {
 	public void check_the_selected_page_is_right() throws Throwable {
 		Selectionpage sp = new Selectionpage(driver);
 		toelementHighlight(sp.getCheckcasualdress());
+		File takeScreenShotonthePage = Baseclass.takeScreenShotonthePage("check_the_selected_page_is_right()");
+		Reporter.addScreenCaptureFromPath(takeScreenShotonthePage.getAbsolutePath());
+	
 		Assert.assertEquals("Faded Short Sleeve T-shirts", getTextofTheElement(sp.getCheckcasualdress()));
 
 	}

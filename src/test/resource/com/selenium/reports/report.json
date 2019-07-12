@@ -3,16 +3,38 @@
     "line": 2,
     "elements": [
       {
-        "line": 13,
+        "before": [
+          {
+            "result": {
+              "duration": 178973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 5,
         "name": "Verify the login functionailty using step data",
         "description": "",
-        "id": "automation-practice-application-smoke-testing-test;verify-the-login-functionailty-using-step-data;;2",
+        "id": "automation-practice-application-end-to-end-testing-test;verify-the-login-functionailty-using-step-data",
+        "after": [
+          {
+            "result": {
+              "duration": 271481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9443837924,
+              "duration": 27199370421,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3214182905,
+              "duration": 3617463432,
               "status": "passed"
             },
             "line": 7,
@@ -36,11 +58,11 @@
           },
           {
             "result": {
-              "duration": 772116210,
+              "duration": 320862833,
               "status": "passed"
             },
             "line": 8,
-            "name": "user enter the \"arulselvi@gmail.com\" in the email field",
+            "name": "user enter the \"arulselvi@gmail.com\" in the email feild",
             "match": {
               "arguments": [
                 {
@@ -48,20 +70,17 @@
                   "offset": 16
                 }
               ],
-              "location": "Stepdefinition.user_enter_the_in_the_email_field(String)"
+              "location": "Stepdefinition.user_enter_the_in_the_email_feild(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 616128275,
+              "duration": 213031309,
               "status": "passed"
             },
             "line": 9,
-            "name": "user enter the \"arul123\" in the password field",
+            "name": "user enter the \"arul123\" in the password feild",
             "match": {
               "arguments": [
                 {
@@ -69,16 +88,13 @@
                   "offset": 16
                 }
               ],
-              "location": "Stepdefinition.user_enter_the_in_the_password_field(String)"
+              "location": "Stepdefinition.user_enter_the_in_the_password_feild(String)"
             },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2531014461,
+              "duration": 4009475778,
               "status": "passed"
             },
             "line": 10,
@@ -91,115 +107,177 @@
         ],
         "tags": [
           {
-            "line": 1,
-            "name": "@smoke"
+            "line": 4,
+            "name": "@tc_1"
+          },
+          {
+            "line": 4,
+            "name": "@demo"
           }
         ]
       },
       {
-        "line": 14,
-        "name": "Verify the login functionailty using step data",
+        "before": [
+          {
+            "result": {
+              "duration": 90619,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "verify the search function of the user",
         "description": "",
-        "id": "automation-practice-application-smoke-testing-test;verify-the-login-functionailty-using-step-data;;3",
+        "id": "automation-practice-application-end-to-end-testing-test;verify-the-search-function-of-the-user",
+        "after": [
+          {
+            "result": {
+              "duration": 181617,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2587398931,
+              "duration": 4370433958,
               "status": "passed"
             },
-            "line": 6,
-            "name": "User Launch the automation practice",
+            "line": 14,
+            "name": "select the type of dress",
             "match": {
-              "location": "Stepdefinition.user_Launch_the_automation_practice()"
+              "location": "Stepdefinition.select_the_type_of_dress()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3670436808,
+              "duration": 301235408,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user click on the signin button in the header",
+            "line": 15,
+            "name": "User mouseover to the summerdress",
             "match": {
-              "location": "Stepdefinition.user_click_on_the_signin_button_in_the_header()"
+              "location": "Stepdefinition.user_mouseover_to_the_summerdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281054826,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check if the item is added to the cart",
+            "match": {
+              "location": "Stepdefinition.check_if_the_item_is_added_to_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@tc_2"
+          },
+          {
+            "line": 12,
+            "name": "@demo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 166136,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHook()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify the dress page is displayed",
+        "description": "",
+        "id": "automation-practice-application-end-to-end-testing-test;verify-the-dress-page-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 84200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterHook(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2280459758,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "check the selected page is right",
+            "match": {
+              "location": "Stepdefinition.check_the_selected_page_is_right()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11339519,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click to proceed to checkout",
+            "match": {
+              "location": "Stepdefinition.user_click_to_proceed_to_checkout()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 726076690,
+              "duration": 4668881684,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user enter the \"lakshmipriya.ramprakash@gmail.com\" in the email field",
+            "line": 21,
+            "name": "verify the product is added to cart",
             "match": {
-              "arguments": [
-                {
-                  "val": "lakshmipriya.ramprakash@gmail.com",
-                  "offset": 16
-                }
-              ],
-              "location": "Stepdefinition.user_enter_the_in_the_email_field(String)"
+              "location": "Stepdefinition.verify_the_product_is_added_to_cart()"
             },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 551817257,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user enter the \"India@143\" in the password field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "India@143",
-                  "offset": 16
-                }
-              ],
-              "location": "Stepdefinition.user_enter_the_in_the_password_field(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1977283248,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user click on the signing button",
-            "match": {
-              "location": "Stepdefinition.user_click_on_the_signing_button()"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 1,
-            "name": "@smoke"
+            "line": 17,
+            "name": "@tc_3"
           }
         ]
       }
     ],
-    "name": "Automation Practice application smoke testing Test",
+    "name": "Automation Practice application end to end testing Test",
     "description": "",
-    "id": "automation-practice-application-smoke-testing-test",
+    "id": "automation-practice-application-end-to-end-testing-test",
     "keyword": "Feature",
-    "uri": "AutomationPracticeSmoke.feature",
+    "uri": "AutomationPracticeEnd2End.feature",
     "tags": [
       {
         "line": 1,
-        "name": "@smoke"
+        "name": "@end2end"
       }
     ]
   }
